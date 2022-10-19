@@ -1,0 +1,32 @@
+input[type=checkbox]{
+    position: absolute;
+    transform: scale(1.5);
+    left:63%;
+}
+
+.date{
+    position: absolute;
+    left:69%;
+}
+
+.labelSelect{
+    position: absolute;
+    left:43%;
+    transform: translateY(10%);
+}
+
+select{
+    width:100px;
+}
+
+#sortByDate,#sortByPriority{
+    float: right;
+}
+
+#sortByDate{
+    transform: translateX(-10%);
+}
+
+#createInput{
+    flex:1;
+}
